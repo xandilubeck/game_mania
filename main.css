@@ -5,12 +5,13 @@
 }
 
 body > header {
-    background-color: black;
+    background-color: rgb(247, 175, 93);
     padding: 16px 0px;
     color: white;
 }
 
-header .container {
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,5 +35,90 @@ header li a {
 .articles {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+    .articles img {
+        margin: 50px 50px 0px 50px;
+    }
+
+.articles article {
+    width: 30%;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+.store {
+    margin-right: 32px;
+    height: 400px;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.contact {
+    display: flex;
     justify-content: space-between;
 }
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    border: none;
+    cursor: pointer;
+}
+
+.social img {
+    height: 24px;
+}
+
+.social li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social li a {
+    text-decoration: none;
+}
+
+.maps {
+    height: 50px;
+    margin-right: 16px;
+}
+

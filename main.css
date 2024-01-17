@@ -4,6 +4,17 @@
     padding: 0;
 }
 
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Iceberg', sans-serif;
+}
+
+body, input, textarea {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
 body > header {
     background-color: rgb(247, 175, 93);
     padding: 16px 0px;
@@ -25,6 +36,7 @@ header li {
 header li a {
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .container {
@@ -44,6 +56,19 @@ header li a {
 
 .articles article {
     width: 30%;
+}
+
+.articles article a {
+    background-color: rgb(247, 175, 93);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
 }
 
 section h3 {
@@ -100,6 +125,7 @@ form textarea {
 }
 
 form button {
+    background-color: rgb(247, 175, 93);
     border: none;
     cursor: pointer;
 }
@@ -118,7 +144,12 @@ form button {
 }
 
 .maps {
-    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.maps img {
     margin-right: 16px;
+    height: 50px;
 }
 

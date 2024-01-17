@@ -60,6 +60,7 @@ header li a {
 
 .articles article a {
     background-color: rgb(247, 175, 93);
+    color: white;
     padding: 8px;
     display: inline-block;
     text-decoration: none;
